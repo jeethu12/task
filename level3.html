@@ -1,0 +1,44 @@
+level3.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Management</title>
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Add user</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="userTable">
+                <tr>
+                    <td>1</td>
+                    <td>test</td>
+                    <td>tss</td>
+                    <td><button class="delete-btn">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>dfsf</td>
+                    <td>fsdg</td>
+                    <td><button class="delete-btn">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
